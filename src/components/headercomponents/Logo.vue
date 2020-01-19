@@ -1,15 +1,10 @@
 <template>
-  <img class="lg:inline-block content-center" src="data" alt="Renzie" />
+  <img class="inline-block content-center" :src="img" alt="Renzie" />
 </template>
 
 <script>
   export default {
-    methods: {
-      data() {
-        return './assets/images/ikke.png';
-      }
-    },
-
+    props: ['img'],
     name: 'Logo'
   }
 </script>

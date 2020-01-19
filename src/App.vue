@@ -1,19 +1,22 @@
 <template>
-  <div id="app" class="bg-gray-100">
+  <div id="app" class="bg-gray-100 flex flex-col min-h-screen">
     <Header />
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Main class="flex-grow" />
+    <Footer />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 import Header from './components/Header.vue'
+import Main from './components/Main.vue'
+import Footer from './components/Footer.vue'
 
 export default {
   name: 'app',
   components: {
     Header,
-    HelloWorld
+    Main,
+    Footer
   }
 }
 </script>
