@@ -1,7 +1,9 @@
 <template>
-  <main class="">
-    <section class="bg-blue-100">
-      <Card />
+  <main class="lg:pt-28 pt-24 w-full relative">
+    <section class="">
+
+      <p class="uppercase">Hello</p>
+
       <ul class="flex-row">
         <Metric title="# Times I realized something stupid this year" count="23" />
         <Metric title="# Plants that died in my appartment" count="4" />
@@ -14,14 +16,12 @@
 
 
 <script>
-import Card from './maincomponents/Card.vue'
 import Metric from './maincomponents/Metric.vue'
 
 
   export default {
     name: 'Main',
     components: {
-      Card,
       Metric
     }
   }

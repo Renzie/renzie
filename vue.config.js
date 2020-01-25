@@ -7,10 +7,10 @@ module.exports = {
         .loader('vue-loader')
         .tap(options => {
           // modify the options...
-          options.transformAssetUrls = {
-            img: 'src'
-          }
           return options
         })
+        .end()
+      
+
   }
 }

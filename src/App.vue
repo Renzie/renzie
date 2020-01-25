@@ -1,5 +1,5 @@
 <template>
-  <div id="app" class="bg-gray-100 flex flex-col min-h-screen">
+  <div id="app" class="bg-white flex flex-col min-h-screen items-center">
     <Header />
     <Main class="flex-grow" />
     <Footer />
@@ -27,7 +27,5 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-
-
 }
 </style>
