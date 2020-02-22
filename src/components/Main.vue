@@ -1,5 +1,5 @@
 <template>
-  <main class="lg:pt-28 pt-24 w-full relative">
+  <main class="flex lg:pt-28 pt-32 w-full relative">
     <section class="">
 
       <p class="uppercase">Hello</p>

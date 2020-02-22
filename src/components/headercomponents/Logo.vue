@@ -1,15 +1,16 @@
 <template>
-  <li class="block flex-1 mr-1 inline-block mt-4 w-24">
+  <li class=" object-cover  inline-block flex-1">
     <div id="logo">
-      <img class="" :src="require('@/assets/img/' + img)" v-bind:alt="Renzie" />
+      <a href="#">
+        <img :src="require('@/assets/img/' + img)" v-bind:alt="icon" />
+      </a>
+
     </div>
   </li>
 
 </template>
 
 <script>
-
-
   export default {
     methods: {
       getImgUrl(source) {

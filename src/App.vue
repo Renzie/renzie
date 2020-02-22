@@ -1,6 +1,7 @@
 <template>
-  <div id="app" class="bg-white flex flex-col min-h-screen items-center">
-    <Header />
+  <div id="app" class=" flex flex-col min-h-screen">
+    <div class="bg w-full h-full absolute"></div>
+    <Header class="" />
     <Main class="flex-grow" />
     <Footer />
   </div>
@@ -26,6 +27,14 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+
 }
+
+.bg {
+  background: url('./assets/img/background3.jpg');
+  background-size: cover;
+  z-index: -1;
+}
+
+
 </style>

@@ -1,5 +1,9 @@
 <template>
-  <li class="flex-1 mr-1 lg:inline-block lg:w-24 hover:text-orange-400 shadow"><a href="link">{{ title }}</a></li>
+  <li class="object-cover flex-1 items-stretch inline-block hover:text-green-400 align-text-top w-1/4">
+    <a href="link" class="bg-local" >
+      {{ title }}
+    </a>
+  </li>
 </template>
 
 
@@ -10,7 +14,7 @@
     props: {
       title: String,
       link: String,
-      image: String
+      icon: String
     }
   }
 </script>

@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@responsive {
+  .bg-gradient {
+      background-image: linear-gradient(#D7E1EC, #FFFFFF);
+  }
+}

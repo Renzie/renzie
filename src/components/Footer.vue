@@ -1,5 +1,5 @@
 <template>
-<footer class="flex justify-between bg-gray-200 lg:h-3">
+<footer class="flex justify-between lg:h-3">
 
 </footer>
 
