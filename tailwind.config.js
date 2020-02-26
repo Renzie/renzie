@@ -18,6 +18,9 @@ module.exports = {
         // ...
         900: '#1a202c'
     },
+    inset: {
+      '-16' : '-4rem'
+   },
    fontFamily: {
      display: ['Gilroy', 'sans-serif'],
      body: ['Graphik', 'sans-serif'],
@@ -32,6 +35,7 @@ module.exports = {
       shadow: 'box-shadow',
       transform: 'transform',
     },
+
 
 
     // .ease-{timingFunction}

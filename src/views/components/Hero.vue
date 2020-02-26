@@ -1,6 +1,6 @@
 <template>
   <div class="section-shaped">
-    <div class="shape">
+    <div class="shape transform -skew-y-6">
 
     </div>
   </div>
@@ -14,7 +14,7 @@
 
 <style>
   .section-shaped {
-    height: 580px;
+    height: 500px;
     background-size: cover;
     background-position: 50%;
 
@@ -23,7 +23,7 @@
 
   .shape {
     background : linear-gradient(150deg,#281483 15%,#8f6ed5 70%,#d782d9 94%);
-    transform: skewY(-8deg);
+
     transform-origin: 0;
   }
 
