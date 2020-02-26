@@ -1,7 +1,8 @@
 <template>
   <main class="container mx-auto lg:pt-28 pt-32 w-full relative -mt-64">
     <section class="">
-      <Card />
+      
+    <Card />
 
       <p class="uppercase">Hello</p>
 
@@ -17,8 +18,8 @@
 
 
 <script>
-import Metric from './maincomponents/Metric.vue'
-import Card from './maincomponents/Card.vue'
+import Metric from '@/components/Metric.vue'
+import Card from '@/components/Card.vue'
 
 
   export default {

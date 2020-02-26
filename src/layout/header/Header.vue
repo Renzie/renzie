@@ -22,14 +22,12 @@
 
 <script>
 
-import NavItem from './headercomponents/NavItem.vue'
-//import Logo from './headercomponents/Logo.vue'
+import NavItem from './components/NavItem.vue'
 
 export default {
   name: 'Header',
   components: {
     NavItem
-    //Logo
   }
 }
 

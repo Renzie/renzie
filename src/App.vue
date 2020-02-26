@@ -9,10 +9,10 @@
 </template>
 
 <script>
-import Header from './components/Header.vue'
-import Main from './components/Main.vue'
-import Footer from './components/Footer.vue'
-import Hero from './components/Hero.vue'
+import Header from './layout/header/Header.vue'
+import Main from './views/Main.vue'
+import Footer from './layout/footer/Footer.vue'
+import Hero from './views/components/Hero.vue'
 
 export default {
   name: 'app',
@@ -30,7 +30,6 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-
 }
 
 
