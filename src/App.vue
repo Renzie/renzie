@@ -1,7 +1,8 @@
 <template>
   <div id="app" class=" flex flex-col min-h-screen">
-    <div class="bg w-full h-full absolute"></div>
+
     <Header class="" />
+    <Hero />
     <Main class="flex-grow" />
     <Footer />
   </div>
@@ -11,13 +12,15 @@
 import Header from './components/Header.vue'
 import Main from './components/Main.vue'
 import Footer from './components/Footer.vue'
+import Hero from './components/Hero.vue'
 
 export default {
   name: 'app',
   components: {
     Header,
     Main,
-    Footer
+    Footer,
+    Hero
   }
 }
 </script>
@@ -30,11 +33,7 @@ export default {
 
 }
 
-.bg {
-  background: url('./assets/img/background3.jpg');
-  background-size: cover;
-  z-index: -1;
-}
+
 
 
 </style>

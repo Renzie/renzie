@@ -1,5 +1,5 @@
 <template>
-<header class="hover:shadow-lg hover:bg-blue-300 duration-500 ease-linear">
+<header class="duration-500 ease-linear absolute top-0 w-full z-50">
   <div class="container mx-auto mt-2 py-8 ">
 
 

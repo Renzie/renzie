@@ -1,6 +1,7 @@
 <template>
-  <main class="flex lg:pt-28 pt-32 w-full relative">
+  <main class="container mx-auto lg:pt-28 pt-32 w-full relative -mt-64">
     <section class="">
+      <Card />
 
       <p class="uppercase">Hello</p>
 
@@ -17,12 +18,14 @@
 
 <script>
 import Metric from './maincomponents/Metric.vue'
+import Card from './maincomponents/Card.vue'
 
 
   export default {
     name: 'Main',
     components: {
-      Metric
+      Metric,
+      Card
     }
   }
 </script>
