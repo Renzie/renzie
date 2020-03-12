@@ -7,10 +7,10 @@
     <ul class="flex">
 
       <div class="w-2/5 ml-auto">
-        <NavItem title="Home" />
-        <NavItem title="Career" />
-        <NavItem title="Hobbies" />
-        <NavItem title="Contact" />
+        <NavItem title="Home" icon="home" />
+        <NavItem title="Career" icon="briefcase" />
+        <NavItem title="Hobbies" icon="music" />
+        <NavItem title="Contact" icon="comment"/>
       </div>
 
     </ul>
