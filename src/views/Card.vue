@@ -15,7 +15,7 @@
               :key="tab.title"
               :icon="tab.icon"
               :title="tab.title"
-              v-on:click="currentTab = tab"/>
+              v-on:click.native="currentTab = tab"/>
             </ul>
           </nav>
           <TabInfo :is="currentTab.component">
