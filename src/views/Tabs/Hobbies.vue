@@ -6,8 +6,7 @@
 
   export default {
     name: "Hobbies",
-    components: {
-
-    }
+    icon: "music",
+    title: "Hobbies"
   }
 </script>

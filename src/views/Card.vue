@@ -7,10 +7,10 @@
         <h1 class="text-4xl tracking-wide">Renzie Omaña</h1>
       </div>
       <div class="w-3/4 border-l-2">
-
-          <nav class="mt-4 ">
-            <ul class="flex justify-around border-b-2">
+          <nav class="text-center">
+            <ul class="flex flex-wrap justify-center last:border-r-0">
               <Tab
+              :class="{currentTab:tab == currentTab}"
               v-for="tab in tabs"
               :key="tab.title"
               :icon="tab.icon"
@@ -18,7 +18,7 @@
               v-on:click.native="currentTab = tab"/>
             </ul>
           </nav>
-          <TabInfo :is="currentTab.component">
+          <TabInfo :is="currentTab">
           </TabInfo>
       </div>
     </div>
@@ -32,40 +32,20 @@ import About from './Tabs/About.vue';
 import Hobbies from './Tabs/Hobbies.vue';
 import Career from'./Tabs/Career.vue';
 
-var tabs = [
-  {
-    component: About,
-    title: "About",
-    icon: "user-circle"
-  },
-  {
-    component: Hobbies,
-    title: "Hobbies",
-    icon: "music"
-  },
-  {
-    component: Career,
-    title: "Career",
-    icon: "suitcase"
-  }
-]
+var tabs = [About, Hobbies, Career]
 
   export default {
     name: 'Card',
     components: {
       Tab,
       TabInfo,
-      About,
-      Hobbies,
-      Career
+      About, Hobbies, Career
     },
     data : () => {
       return {
         tabs: tabs,
         currentTab: tabs[0]
       }
-    },
-    computed: {
     }
   }
 </script>

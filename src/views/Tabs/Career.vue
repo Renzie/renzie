@@ -9,8 +9,7 @@
 
   export default {
     name: "Career",
-    components: {
-
-    }
+    icon: "suitcase",
+    title: "Career"
   }
 </script>

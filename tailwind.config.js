@@ -13,6 +13,7 @@ module.exports = {
       transparent: 'transparent',
       black: '#000',
       white: '#fff',
+
       gray: {
         100: '#f7fafc',
         // ...
@@ -22,8 +23,11 @@ module.exports = {
       '-16' : '-4rem'
    },
    fontFamily: {
-     display: ['Gilroy', 'sans-serif'],
-     body: ['Graphik', 'sans-serif'],
+     sans: ['stroke7pixeden', 'BlinkMacSystemFont'],
+     serif: ['Georgia', 'Cambria'],
+     mono: ['SFMono-Regular', 'Menlo'],
+     display: ['stroke7pixeden', 'sans-serif'],
+     body: ['stroke7pixeden', 'sans-serif'],
    },
    // .transition-{property}
     transitionProperty: {
@@ -65,6 +69,9 @@ module.exports = {
       '2': '2px',
       '4': '4px',
     },
+    borderColor: { // TODO coloring the borders, matching the color of the tab
+      green: '#2CC185',
+    },
     extend: {
       colors: {
        cyan: '#9cdbff',
@@ -75,7 +82,9 @@ module.exports = {
      }
    }
   },
-  variants: {},
+  variants: {
+    borderWidth: ['responsive', 'last', 'hover', 'focus']
+  },
   plugins: []
 }
 }

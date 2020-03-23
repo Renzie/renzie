@@ -13,8 +13,7 @@
 
   export default {
     name: "About",
-    components: {
-
-    }
+    icon: "user-circle",
+    title: "About"
   }
 </script>
