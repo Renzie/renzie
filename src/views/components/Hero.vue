@@ -17,14 +17,11 @@
     height: 500px;
     background-size: cover;
     background-position: 50%;
-
     position: relative;
   }
 
   .shape {
-    background : linear-gradient(150deg,#281483 15%,#8f6ed5 70%,#d782d9 94%);
-
-
+    //background : linear-gradient(150deg,#281483 15%,#8f6ed5 70%,#d782d9 94%);
     transform-origin: 0;
   }
 

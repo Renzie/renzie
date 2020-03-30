@@ -8,7 +8,7 @@
       </div>
       <div class="w-3/4 border-l-2">
           <nav class="text-center">
-            <ul class="flex flex-wrap justify-center last:border-r-0">
+            <ul class="flex flex-wrap justify-center">
               <Tab
               :class="{currentTab:tab == currentTab}"
               v-for="tab in tabs"

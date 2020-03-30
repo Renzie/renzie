@@ -1,7 +1,7 @@
 <template>
-  <div id="app" class=" flex flex-col min-h-screen">
+  <div id="app" class="flex flex-col min-h-screen bg-gray-300">
 
-    <Header class="" />
+    <Header />
     <Hero />
     <Main class="flex-grow" />
     <Footer />

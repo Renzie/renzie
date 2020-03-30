@@ -1,10 +1,10 @@
 <template>
 
-  <section class="content-center w-2/3 mx-auto">
+  <div class="content-center w-2/3 mx-auto">
 
     <slot></slot>
 
-  </section>
+  </div>
 </template>
 
 <script>
@@ -20,3 +20,10 @@
     }
   }
 </script>
+
+<style media="screen">
+  .tabInfo {
+    transition: transform 0.3;
+    transform: rotate(90%);
+  }
+</style>

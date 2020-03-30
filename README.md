@@ -1,4 +1,4 @@
-# renzie
+# Personal Website
 
 ## Installation
 
@@ -19,3 +19,7 @@
 - BIO
 - Routing
 - Blog? (last content)
+
+
+Tabs:
+- Quick switching between tabs cause some issues
