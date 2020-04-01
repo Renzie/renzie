@@ -1,7 +1,7 @@
 <template>
   <div id="app" class="flex flex-col min-h-screen">
 
-    <router-view name="header"></router-view>
+    <router-view name="navigation"></router-view>
     <main>
           <fade-transition origin="center" mode="out-in" :duration="250">
               <router-view/>

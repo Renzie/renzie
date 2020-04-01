@@ -2,12 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@responsive {
-  .bg-gradient {
-      background-image: linear-gradient(#D7E1EC, #FFFFFF);
-  }
-}
-
 @font-face {
   font-weight: normal;
   font-style: normal;

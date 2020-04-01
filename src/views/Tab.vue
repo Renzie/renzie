@@ -1,9 +1,9 @@
 <template>
-  <li class="w-full cursor-pointer font-display flex-1 border-green text-center">
-    <router-link :to="link" v-slot="active">
-      <a class="z-10 inline align-middle">
+  <li class="font-display" :class="[currentPage == link ? activeClass : '', 'font-display']">
+    <router-link :to="link" >
+
         <font-awesome-icon class="icon inline-block" size="lg" :icon="['fas', icon]" />
-      <span>{{ title }}</span></a>
+      <!--<span>{{ title }}</span> -->
     </router-link>
 
 
@@ -18,6 +18,16 @@
       icon: String,
       title: String,//TODO change to tooltip
       link: String
+    },
+    computed: {
+      currentPage() {
+        return this.$route.path;
+      }
+    },
+    data() {
+      return {
+        activeClass: 'currentTab'
+      }
     }
   }
 </script>

@@ -1,6 +1,6 @@
 import Vue from "vue";
 import Router from "vue-router";
-import Header from "@/layout/header/Header.vue"
+import Navigation from "@/layout/navigation/Navigation.vue"
 import Home from "@/views/pages/Home.vue"
 import About from "@/views/pages/About.vue"
 import Hobbies from "@/views/pages/Hobbies.vue"
@@ -17,7 +17,7 @@ export default new Router ({
       path: "/",
       name: "home",
       components: {
-        header: Header,
+        navigation: Navigation,
         default: Home
       }
     },
@@ -25,7 +25,7 @@ export default new Router ({
       path: "/about",
       name: "about",
       components: {
-        header: Header,
+        navigation: Navigation,
         default: About
       }
     },
@@ -33,7 +33,7 @@ export default new Router ({
       path: "/hobbies",
       name: "hobbies",
       components: {
-        header: Header,
+        navigation: Navigation,
         default: Hobbies
       }
     },
@@ -41,7 +41,7 @@ export default new Router ({
       path: "/career",
       name: "career",
       components: {
-        header: Header,
+        navigation: Navigation,
         default: Career
       }
     }

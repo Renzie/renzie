@@ -10,7 +10,7 @@ module.exports = {
      xl: '1280px',
    },
    inset: {
-     '1/2' : '50%'
+     '1/3' : '33%'
    },
    colors: {
       transparent: 'transparent',
