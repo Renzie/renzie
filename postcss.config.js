@@ -1,5 +1,6 @@
+const postcssImport = require('postcss-import');
 const autoprefixer = require('autoprefixer');
-const tailwindcss = require('tailwindcss');
+const tailwindcss = require('tailwindcss')('./tailwind.config.js');
 const postcssPurgecss = require(`@fullhuman/postcss-purgecss`);
 
 const purgecss = postcssPurgecss({
@@ -16,11 +17,12 @@ const purgecss = postcssPurgecss({
   whitelistPatterns: [/-(leave|enter|appear)(|-(to|from|active))$/, /^(?!(|.*?:)cursor-move).+-move$/, /^router-link(|-exact)-active$/],
 });
 module.exports = {
-  plugins: {
+  plugins: [
+    postcssImport,
     tailwindcss,
     autoprefixer,
     ...process.env.NODE_ENV === 'production'
       ? [purgecss]
       : [],
-  },
+    ],
 };

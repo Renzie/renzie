@@ -1,38 +1,23 @@
 <template>
-  <div id="app" class="flex flex-col min-h-screen bg-gray-300">
+  <div id="app" class="flex flex-col min-h-screen">
 
-    <Header />
-    <Hero />
-    <Main class="flex-grow" />
-    <Footer />
+    <router-view name="header"></router-view>
+    <main>
+          <fade-transition origin="center" mode="out-in" :duration="250">
+              <router-view/>
+          </fade-transition>
+      </main>
   </div>
 </template>
 
 <script>
-import Header from './layout/header/Header.vue'
-import Main from './views/Main.vue'
-import Footer from './layout/footer/Footer.vue'
-import Hero from './views/components/Hero.vue'
+
+import { FadeTransition } from "vue2-transitions";
 
 export default {
   name: 'app',
   components: {
-    Header,
-    Main,
-    Footer,
-    Hero
+    FadeTransition
   }
 }
 </script>
-
-<style>
-#app {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-}
-
-
-
-
-</style>

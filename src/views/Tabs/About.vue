@@ -14,6 +14,7 @@
   export default {
     name: "About",
     icon: "user-circle",
-    title: "About"
+    title: "About",
+    link: "/about"
   }
 </script>

@@ -1,16 +1,20 @@
-// vue.config.js
-module.exports = {
+/*module.exports = {
   chainWebpack: config => {
     config.module
-      .rule('vue')
+      .rule('vue2')
       .use('vue-loader')
-        .loader('vue-loader')
-        .tap(options => {
-          // modify the options...
-          return options
-        })
-        .end()
-      
+      .tap(options => {
 
+        return options;
+      })
+  },
+  css: {
+    loaderOptions: {
+      postcss: {
+        config:{
+          path:__dirname
+        }
+      }
+    }
   }
-}
+}*/

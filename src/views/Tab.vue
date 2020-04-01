@@ -1,8 +1,10 @@
 <template>
   <li class="w-full cursor-pointer font-display flex-1 border-green text-center">
-    <a class="z-10 inline-block align-middle">
-      <font-awesome-icon class="icon" size="lg" :icon="['fas', icon]" />
-    <span>{{ title }}</span></a>
+    <router-link :to="link" v-slot="active">
+      <a class="z-10 inline align-middle">
+        <font-awesome-icon class="icon inline-block" size="lg" :icon="['fas', icon]" />
+      <span>{{ title }}</span></a>
+    </router-link>
 
 
   </li>
@@ -14,7 +16,8 @@
     name: "Tab",
     props: {
       icon: String,
-      title: String,  //TODO change to tooltip
+      title: String,//TODO change to tooltip
+      link: String
     }
   }
 </script>
@@ -57,12 +60,12 @@
   content: '';
   -webkit-transition: -webkit-transform 0.5s;
   transition: transform 0.5s;
-  -webkit-transform: translate3d(0,100%,0);
-  transform: translate3d(0,100%,0);
+  -webkit-transform: translate3d(100%,0,0);
+  transform: translate3d(100%,0,0);
 }
 
 
-.tabs nav ul li.currentTab a::after {
+.tabs nav ul li.currentTab a:hover {
 	-webkit-transition: -webkit-transform 0.5s;
 	transition: transform 0.5s;
 	-webkit-transform: translate3d(0,0,0);
@@ -74,23 +77,15 @@
   height: 100%;
 	-webkit-transition: -webkit-transform 0.5s;
 	transition: transform 0.5s;
-	-webkit-transform: translate3d(0,5px,0);
-	transform: translate3d(0,5px,0);
+	-webkit-transform: translate3d(-5px,0,0);
+	transform: translate3d(-5px,0,0);
 }
 
-.tabs nav ul li a span {
-  display: block;
-
-}
-
-.icon {
-	display: inline-block;
-}
 
 .tabs nav ul li.currentTab a span,
 .tabs nav ul li.currentTab .icon {
-	-webkit-transform: translate3d(0,-10px,0);
-	transform: translate3d(0,-10px,0);
+	-webkit-transform: translate3d(-10px,0,0);
+	transform: translate3d(-10px,0,0);
 }
 
 .tabs nav ul li.currentTab a {

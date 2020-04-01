@@ -9,6 +9,9 @@ module.exports = {
      lg: '1024px',
      xl: '1280px',
    },
+   inset: {
+     '1/2' : '50%'
+   },
    colors: {
       transparent: 'transparent',
       black: '#000',
@@ -22,13 +25,14 @@ module.exports = {
     inset: {
       '-16' : '-4rem'
    },
+ },
    fontFamily: {
      sans: ['stroke7pixeden', 'BlinkMacSystemFont'],
-     serif: ['Georgia', 'Cambria'],
-     mono: ['SFMono-Regular', 'Menlo'],
+     serif: ['stroke7pixeden', 'Cambria'],
+     mono: ['stroke7pixeden', 'Menlo'],
      display: ['stroke7pixeden', 'sans-serif'],
-     body: ['stroke7pixeden', 'sans-serif'],
-   },
+     body: ['stroke7pixeden', 'sans-serif']
+    },
    // .transition-{property}
     transitionProperty: {
       none: 'none',
@@ -86,5 +90,4 @@ module.exports = {
     borderWidth: ['responsive', 'last', 'hover', 'focus']
   },
   plugins: []
-}
 }

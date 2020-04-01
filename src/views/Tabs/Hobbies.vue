@@ -7,6 +7,7 @@
   export default {
     name: "Hobbies",
     icon: "music",
-    title: "Hobbies"
+    title: "Hobbies",
+    link: "/hobbies"
   }
 </script>

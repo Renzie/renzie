@@ -10,6 +10,7 @@
   export default {
     name: "Career",
     icon: "suitcase",
-    title: "Career"
+    title: "Career",
+    link: "/career"
   }
 </script>

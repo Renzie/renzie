@@ -1,6 +1,6 @@
 <template>
   <div class="">
-    <p> Hi! My name is Renzie! How can I help you?</p>
+    <p> Hi! My name is Renzie! How can I help you? test</p>
   </div>
 
 </template>
@@ -10,6 +10,7 @@
   export default {
     name: "Home",
     icon: "home",
-    title: "Home"
+    title: "Home",
+    link: "/"
   }
 </script>

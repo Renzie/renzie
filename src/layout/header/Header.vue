@@ -1,12 +1,8 @@
 <template>
-<header class="duration-500 ease-linear absolute top-0 w-full z-50">
-  <div class="container mx-auto mt-2 py-8 ">
-
-
-  <!--<Logo img="logo.png" class="w-1/5" /> -->
-  <div class="tabs  ml-auto">
+  <div class="absolute  top-1/2">
+    <div class=" tabs  right-0  w-56">
       <nav class="text-center">
-        <ul class="flex flex-wrap">
+        <ul class="flex flex-col">
           <Tab
           class="last:border-0 border-r-2 border-green-300"
           :class="{currentTab:tab == currentTab}"
@@ -14,25 +10,25 @@
           :key="tab.title"
           :icon="tab.icon"
           :title="tab.title"
+          :link="tab.link"
           v-on:click.native="currentTab = tab"/>
         </ul>
       </nav>
+    </div>
+
+  <div class="w-4/5 content-center">
+
       <transition name="fade">
       <TabInfo :is="currentTab" class="tabInfo">
       </TabInfo>
     </transition>
   </div>
     </div>
-</header>
 
 </template>
 
 
 <script>
-
-//import NavItem from './components/NavItem.vue'
-
-
 import Tab from '@/views/Tab.vue';
 import TabInfo from '@/views/TabInfo.vue';
 import About from '@/views/Tabs/About.vue';
@@ -48,7 +44,7 @@ export default {
   components: {
     Tab,
     TabInfo,
-    About, Hobbies, Career
+    Home, About, Hobbies, Career
   },
 
 data : () => {
