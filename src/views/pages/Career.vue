@@ -11,7 +11,7 @@
   export default {
     name: 'Career',
     components: {
-      //Card,
+
     }
   }
 </script>

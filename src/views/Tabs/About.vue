@@ -13,7 +13,7 @@
 
   export default {
     name: "About",
-    icon: "user-circle",
+    icon: "mug-hot",
     title: "About",
     link: "/about"
   }

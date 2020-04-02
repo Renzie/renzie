@@ -5,6 +5,7 @@ import Home from "@/views/pages/Home.vue"
 import About from "@/views/pages/About.vue"
 import Hobbies from "@/views/pages/Hobbies.vue"
 import Career from "@/views/pages/Career.vue"
+import Contact from "@/views/pages/Contact.vue"
 
 
 
@@ -43,6 +44,14 @@ export default new Router ({
       components: {
         navigation: Navigation,
         default: Career
+      }
+    },
+    {
+      path: "/contact",
+      name: "contact",
+      components: {
+        navigation: Navigation,
+        default: Contact
       }
     }
   ]

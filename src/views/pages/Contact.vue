@@ -1,13 +1,13 @@
 <template>
   <main class="bg-orange-500 h-full">
-    <p>Piano</p>
+    <h1 style="">Contact</h1>
   </main>
 </template>
 
 
 <script>
   export default {
-    name: 'Hobbies',
+    name: 'Contact',
     components: {
 
     }
