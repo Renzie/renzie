@@ -1,54 +1,71 @@
 <template>
-  <main class="bg-purple-700 h-full">
-    <section class="">
-      <p>I’m that annoying guy who likes to start talking to you on a train or something. Uhh. Yeah. </p>
+  <div class="plum-plate min-h-screen pt-32">
+    <main class="container shadow p-4 align-middle lg:pt-16 bg-white rounded-sm">
+      <section class="justify-center">
+        <h1 class="text-4xl text-center">About</h1>
+        <div class="w-1/4">
+          <img class="rounded-full" src="@/assets/img/ikke.jpg" alt="">
+        </div>
+        <p>I’m that annoying guy who likes to start talking to you on a train or something. Uhh. Yeah. </p>
 
-    <p>The biggest reason I’m doing this is because it’s both fun and it feels that the you reach your destination way faster than when you’re actually just waiting and scrolling through your phone.
+      <p>The biggest reason I’m doing this is because it’s both fun and it feels that the you reach your destination way faster than when you’re actually just waiting and scrolling through your phone.
 
-    I’m also a software engineer and I love how people design and share their own experiences. </p>
+      I’m also a software engineer and I love how people design and share their own experiences. </p>
 
-Now, there are so many other different interests that I would like to share with you people. Maybe using a couple of lists might be the easiest way to show you:
+  <p>Now, there are so many other different interests that I would like to share with you people.
+    Maybe using a couple of lists might be the easiest way to show you:</p>
 
-Experiences in technologies
-HTML, CSS
+  <span class="text-2xl">Experiences in technologies</span>
+  <ul>
+    <li>HTML, CSS</li>
 
-Javascript
+    <li>Javascript</li>
 
-Vue (learning)
+    <li>Vue (learning)</li>
 
-Angular (it’s been a while)
+    <li>Angular (it’s been a while)</li>
 
-React (learning)
+    <li>React (learning)</li>
 
-Java
+    <li>Java</li>
 
-Apache Beam
+    <li>Apache Beam</li>
 
-Scala (been a while)
+    <li>Scala (been a while)</li>
+  </ul>
 
-Interests
-Piano (Hobby)
 
-Storytelling
+    <span class="text-2xl">Interests</span>
+    <ul>
+      <li>Piano (Hobby)</li>
 
-Personal Development
+      <li>Storytelling</li>
 
-Design (in life and projects)
+      <li>Personal Development</li>
 
-I could write a blog later on to cover up the storytelling.
-To go in detail about personal development, I could list some things I’m currently working on in my life:
+      <li>Design (in life and projects)</li>
+    </ul>
 
-Meditation
 
-Journaling
+  <p>I could write a blog later on to cover up the storytelling.
+  To go in detail about personal development, I could list some things I’m currently working on in my life:</p>
 
-Trying to clean my appartment regularly
+<ul>
+  <li>Meditation</li>
 
-Taking more and more walks
+  <li>Journaling</li>
 
-Running
-    </section>
-  </main>
+  <li>Trying to clean my appartment regularly</li>
+
+  <li>Taking more and more walks</li>
+
+  <li>Running</li>
+</ul>
+
+      </section>
+    </main>
+  </div>
+
 </template>
 
 
@@ -56,7 +73,7 @@ Running
   export default {
     name: 'About',
     components: {
-      
+
     }
   }
 </script>

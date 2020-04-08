@@ -12,3 +12,22 @@
   url('../fonts/stroke7pixeden/stroke7pixeden.ttf?u58ytb') format('truetype'),
   url('../fonts/stroke7pixeden/stroke7pixeden.svg?u58ytb#stroke7pixeden') format('svg');
 }
+
+
+@responsive {
+  .plum-plate {
+    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  }
+
+  .lemon-gate {
+    background-image: linear-gradient(to top, #96fbc4 0%, #f9f586 100%);
+  }
+
+  .malibu-beach {
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+  }
+
+  .grown-early {
+    background-image: linear-gradient(to top, #0ba360 0%, #3cba92 100%);
+  }
+}
