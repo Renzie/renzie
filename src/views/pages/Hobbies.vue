@@ -24,16 +24,25 @@
         </div>
       </div>
 
+      <div class="py-24 flex justify-center">
+          <NavItem title="Home" link="/" icon="home" bgColor="bg-green-400" textColor="text-white"/>
+          <NavItem title="Career" link="/career" icon="suitcase" bgColor="bg-indigo-400" textColor="text-white"/>
+          <NavItem title="Contact" link="/contact" icon="phone" bgColor="bg-green-500" textColor="text-white"/>
+      </div>
   </main>
 </div>
 </template>
 
 
+
 <script>
+
+import NavItem from '@/views/components/NavItem.vue';
+
   export default {
     name: 'Hobbies',
     components: {
-
+      NavItem
     }
   }
 </script>

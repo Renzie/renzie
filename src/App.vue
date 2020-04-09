@@ -1,6 +1,5 @@
 <template>
   <div id="app" class="font-sans text-gray-800">
-    <router-view name="navigation"></router-view>
     <main class="min-h-screen">
           <fade-transition origin="center" mode="out-in" :duration="250">
               <router-view/>
