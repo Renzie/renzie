@@ -7,7 +7,7 @@
             <h1 class="text-6xl font-extrabold align-middle text-left subpixel-antialiased mb-64">Hey! My name is Renzie. I know how coding works, sort of.  </h1>
           </transition>
           <transition appear mode="out-in" name="canihelp">
-          <h1 class="text-5xl text-gray-900 subpixel-antialiased">
+          <h1 class="text-5xl subpixel-antialiased">
             Scroll down to know more about me!
           </h1>
         </transition>

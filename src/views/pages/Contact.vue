@@ -8,7 +8,7 @@
 
 
       <div class="py-24 flex justify-center">
-          <NavItem title="Home" link="/" icon="home" bgColor="bg-green-400" textColor="text-white"/>
+        <NavItem title="Home" link="/" icon="home" bgColor="bg-purple-500" textColor="text-white"/>
           <NavItem title="Hobbies" link="/hobbies" icon="music" bgColor="bg-teal-400" textColor="text-white"/>
           <NavItem title="Career" link="/career" icon="suitcase" bgColor="bg-indigo-400" textColor="text-white"/>
       </div>
