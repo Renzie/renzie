@@ -225,6 +225,7 @@ module.exports = {
       default: '1',
     },
     fontFamily: {
+
       /*
       sans: ['stroke7pixeden', 'sans-serif'], // todo decide differences
       serif: ['stroke7pixeden', 'sans-serif'],
@@ -233,6 +234,7 @@ module.exports = {
       body: ['stroke7pixeden', 'sans-serif']
       */
       sans: [
+        '"Noto Sans"',
         'system-ui',
         '-apple-system',
         'BlinkMacSystemFont',
@@ -240,7 +242,6 @@ module.exports = {
         'Roboto',
         '"Helvetica Neue"',
         'Arial',
-        '"Noto Sans"',
         'sans-serif',
         '"Apple Color Emoji"',
         '"Segoe UI Emoji"',
@@ -249,9 +250,10 @@ module.exports = {
       ],
       serif: ['Georgia', 'Cambria', '"Times New Roman"', 'Times', 'serif'],
       mono: ['Menlo', 'Monaco', 'Consolas', '"Liberation Mono"', '"Courier New"', 'monospace'],
+      body: ['stroke7pixeden', 'sans-serif'],
     },
     fontSize: {
-      xs: '0.75rem',
+      xs: '0.75rem',body: ['stroke7pixeden', 'sans-serif'],
       sm: '0.875rem',
       base: '1rem',
       lg: '1.125rem',

@@ -1,35 +1,46 @@
 <template>
-  <div class="malibu-beach min-h-screen pt-32">
-    <div class="flex container justify-around ">
-      <div class="mr-5 w-1/3">
-          <img class="rounded-lg" src="@/assets/img/hackaton_howest.jpg" alt="">
-      </div>
-      <main class="shadow p-4 align-middle lg:pt-16 bg-white rounded-sm w-2/3">
-        <h1 class="text-4xl text-center">Career</h1>
-        <div class="mb-5">
-          <h2 class="text-3xl">Work</h2>
-          <article class=""><!-- TODO Add location -->
-
-            <h3 class="text-2xl">TomTom - Associate Software Engineer</h3>
-            <p>Rewrite the creation of the product that is responsible for the data within the GPS systems.</p>
-            <p></p>
-          </article>
-
-          <article class="">
-            <h3 class="text-2xl">Blackboard - Intern Full-Stack Developer</h3>
-            <p>Fix bugs / add new features to the learning platform that schools use.</p>
-          </article>
-        </div>
-
+  <div class="min-h-screen pt-32">
+      <main class="container p-4 align-middle rounded-sm lg:pt-16">
         <div class="">
-          <h2 class="text-3xl">Education</h2>
-          <article class="">
-            <h3 class="text-2xl">Howest</h3>
-          </article>
+          <h1 class="text-6xl font-bold mb-20 ">Career</h1>
+
+          <h2 class="text-4xl font-semibold mb-12">Working experience</h2>
+          <div class="flex justify-between mb-48">
+            <div class="w-1/3">
+              <img class="shadow rounded-lg" src="@/assets/img/tomtom.jpg" />
+            </div>
+            <div class="w-1/2 self-center">
+              <h2 class="text-4xl mb-5">TomTom</h2>
+              <h3 class="text-2xl">Associate Software Engineer</h3>
+              <p>Rewrite the creation of the product that is responsible for the data within the GPS systems.</p>
+            </div>
+          </div>
+
+          <div class="flex justify-between mb-48">
+            <div class="w-1/2 self-center">
+              <h2 class="text-4xl mb-5">Blackboard</h2>
+              <h3 class="text-2xl">Full Stack Developer (Intern)</h3>
+              <p>Fix bugs / add new features to the learning platform that schools use.</p>
+            </div>
+            <div class="w-1/3">
+              <img class="shadow rounded-lg" src="@/assets/img/tomtom.jpg" />
+            </div>
+          </div>
+        </div>
+        <div class="">
+          <h2 class="text-4xl font-semibold mb-12">Education</h2>
+          <div class="flex justify-between mb-48">
+          <div class="mr-5 w-1/3">
+              <img class="rounded-lg" src="@/assets/img/hackaton_howest.jpg" alt="">
+          </div>
+          <div class="w-1/2 self-center">
+            <h2 class="text-4xl mb-5">Howest</h2>
+            <h3 class="text-2xl">College</h3>
+            <p>Exposition of many paths you can take within technology.</p>
+          </div>
+        </div>
         </div>
       </main>
-    </div>
-
 </div>
 </template>
 
