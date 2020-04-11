@@ -13,7 +13,8 @@
               <h3 class="text-4xl mb-5">TomTom</h3>
               <h4 class="text-2xl">Associate Software Engineer</h4>
               <h5 class="text-xl">October 2018 - October 2019</h5>
-              <p>Rewrite the creation of the product that is responsible for the data within the GPS systems.</p>
+              <h6 class="text-lg"><font-awesome-icon :icon="['fas', 'map-marker-alt' ]"/> Ghent, Belgium</h6>
+              <p class="mt-4">Rewrite the creation of the product that is responsible for the data within the GPS systems.</p>
             </div>
           </div>
 
@@ -22,10 +23,12 @@
               <h3 class="text-4xl mb-5">Blackboard</h3>
               <h4 class="text-2xl">Full Stack Developer (Intern)</h4>
               <h5 class="text-xl">February 2018 - June 2018</h5>
-              <p>Fix bugs / add new features to the learning platform that schools use.</p>
+              <h6 class="text-lg"><font-awesome-icon :icon="['fas', 'map-marker-alt' ]"/> London, UK</h6>
+
+              <p class="mt-4">Fix bugs / add new features to the learning platform that schools use.</p>
             </div>
             <div class="w-1/3">
-              <img class="shadow rounded-lg" src="@/assets/img/tomtom.jpg" />
+              <img class="shadow rounded-lg" src="@/assets/img/london.jpg" />
             </div>
           </div>
         </div>
@@ -39,7 +42,8 @@
             <h3 class="text-4xl mb-5">Howest</h3>
             <h4 class="text-2xl">College</h4>
             <h5 class="text-xl">2015 - 2018</h5>
-            <p>Exposition of many paths you can take within technology.</p>
+            <h6 class="text-lg"><font-awesome-icon :icon="['fas', 'map-marker-alt' ]"/> Bruges, Belgium</h6>
+            <p class="mt-4">Exposition of many paths you can take within technology.</p>
           </div>
         </div>
         </div>

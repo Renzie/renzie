@@ -1,6 +1,9 @@
 <template>
-  <div id="app" class="font-sans text-gray-800">
-    <main class="min-h-screen">
+  <div id="app">
+    <main class="min-h-screen font-sans text-gray-800">
+      <router-view name="navigation"></router-view>
+      <router-view name="footer"></router-view>
+
           <fade-transition origin="center" mode="out-in" :duration="250">
               <router-view/>
           </fade-transition>

@@ -14,10 +14,5 @@
 ```
 
 ## TODO
-- Font insert
-- content to add (maybe a bucket list?)
-- BIO
-
-
-Tabs:
-- Quick switching between tabs cause some issues
+- Mobile
+- Navigation (with burger?)

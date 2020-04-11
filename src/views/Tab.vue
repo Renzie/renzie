@@ -1,9 +1,9 @@
 <template>
-  <li class="font-display" :class="[currentPage == link ? activeClass : '', 'font-display']">
+  <li :class="[currentPage == link ? activeClass : '']">
     <router-link :to="link" >
 
         <font-awesome-icon class="icon inline-block" size="lg" :icon="['fas', icon]" />
-      <!--<span>{{ title }}</span> -->
+      <!-- <span >{{ title }}</span> -->
     </router-link>
 
 
@@ -45,7 +45,7 @@
 }
 
 .tabs li:hover, .tabs li:focus {
-  color: #74777b;
+  color: #ffffff;
 }
 
 .tabs li {
@@ -89,13 +89,6 @@
 	transition: transform 0.5s;
 	-webkit-transform: translate3d(-5px,0,0);
 	transform: translate3d(-5px,0,0);
-}
-
-
-.tabs nav ul li.currentTab a span,
-.tabs nav ul li.currentTab .icon {
-	-webkit-transform: translate3d(-10px,0,0);
-	transform: translate3d(-10px,0,0);
 }
 
 .tabs nav ul li.currentTab a {

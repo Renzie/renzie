@@ -1,6 +1,6 @@
 <template>
-  <div class="h-full ">
-    <div class=" tabs absolute lg:top-1/3 right-0  w-56">
+  <div class="min-h-full fixed bg-gray-800 w-20 z-20">
+    <div class="tabs absolute  left-0 w-full">
       <nav class="text-center">
         <ul class="flex flex-col">
           <Tab
@@ -13,34 +13,23 @@
         </ul>
       </nav>
     </div>
-
-  <div class="w-4/5 content-center">
-
-      <transition name="fade">
-
-    </transition>
   </div>
-    </div>
-
 </template>
 
 
 <script>
 import Tab from '@/views/Tab.vue';
-//import TabInfo from '@/views/TabInfo.vue';
-import About from '@/views/Tabs/About.vue';
 import Hobbies from '@/views/Tabs/Hobbies.vue';
 import Career from'@/views/Tabs/Career.vue';
 import Home from'@/views/Tabs/Home.vue';
 
 
-var tabs = [Home, About, Hobbies, Career]
+var tabs = [Home, Hobbies, Career]
 
 export default {
   name: 'Navigation',
   components: {
     Tab,
-  //  TabInfo,
   },
 
 data : () => {
