@@ -1,7 +1,7 @@
 import Vue from "vue";
 import Router from "vue-router";
 import Navigation from "@/layout/navigation/Navigation.vue"
-import Footer from "@/layout/footer/Footer.vue"
+import Header from "@/layout/header/Header.vue"
 import Home from "@/views/pages/Home.vue"
 import About from "@/views/pages/About.vue"
 import Hobbies from "@/views/pages/Hobbies.vue"
@@ -21,7 +21,7 @@ export default new Router ({
       components: {
         navigation: Navigation,
         default: Home,
-        footer: Footer
+        header: Header
       }
     },
     {
@@ -30,7 +30,7 @@ export default new Router ({
       components: {
         navigation: Navigation,
         default: About,
-        footer: Footer
+        header: Header
       }
     },
     {
@@ -39,7 +39,7 @@ export default new Router ({
       components: {
         navigation: Navigation,
         default: Hobbies,
-        footer: Footer
+        header: Header
       }
     },
     {
@@ -48,7 +48,7 @@ export default new Router ({
       components: {
         navigation: Navigation,
         default: Career,
-        footer: Footer
+        header: Header
       }
     },
     {
@@ -57,7 +57,7 @@ export default new Router ({
       components: {
         navigation: Navigation,
         default: Contact,
-        footer: Footer
+        header: Header
       }
     }
   ]

@@ -1,6 +1,6 @@
 <template>
-  <div class="min-h-full fixed bg-gray-800 w-20 z-20">
-    <div class="tabs absolute  left-0 w-full">
+  <div class="lg:min-h-full fixed bg-gray-800 lg:w-20 sm:w-full sm:h-24 block">
+    <div class="tabs absolute left-0 w-full">
       <nav class="text-center">
         <ul class="flex flex-col">
           <Tab
